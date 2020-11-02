@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/Raj/src/Raj">
+        <classes>
+            <class name="demo">
+                <methods>
+                    <include name="testNGStart"></include>
+                    <include name="testNGAsserts"></include>
+                    <include name="verifyLogo"></include>
+                </methods>
+            </class>
+            <class name="Imagebtn">
+                <methods>
+                    <include name="testNGStart"></include>
+                    <include name="testNGcnt"></include>
+                    <include name="testNGcount"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,514 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1604017412694)
++++ .idea/misc.xml	(date 1604017412694)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="15 (2)" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: testng.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- testng.xml	(date 1604275631870)
++++ testng.xml	(date 1604275631870)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
++<suite name="All Test Suite">
++    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/Raj">
++       <classes>
++           <class name="demo">
++               <methods>
++                   <include name="testNGStart"></include>
++                   <include name="verifyLogo"></include>
++                   <include name="testNGAsserts"></include>
++               </methods>
++
++           </class>
++           <class name="Imagebtn">
++               <methods>
++                   <include name="testNGcnt"></include>
++                   <include name="testNGStart"></include>
++                   <include name="testNGcount"></include>
++               </methods>
++
++           </class>
++        </classes>
++    </test>
++</suite>
+\ No newline at end of file
+Index: Raj.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Raj.iml	(date 1604106919512)
++++ Raj.iml	(date 1604106919512)
+@@ -0,0 +1,114 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="jar://$USER_HOME$/Desktop/MATRIX/testng-7.3.0.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="file://D:/bmw/libs" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++        <jarDirectory url="file://D:/bmw/libs" recursive="false" />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="jar://D:/bmw/libs/byte-buddy-1.8.15.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="jar://D:/bmw/libs/commons-exec-1.3.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="jar://D:/bmw/libs/guava-25.0-jre.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="jar://D:/bmw/libs/okhttp-3.11.0.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="jar://D:/bmw/libs/okio-1.14.0.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="file://D:/bmw" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES>
++          <root url="file://D:/bmw" />
++          <root url="file://D:/bmw/1913591_RAJ_JAVA/RAJ_A1_Q1/src" />
++          <root url="file://D:/bmw/1913591_RAJ_JAVA/RAJ_A2Q2" />
++          <root url="file://D:/bmw/LAXIT_JAVA_1913599/A1_Q1_1913599/src" />
++          <root url="file://D:/bmw/LAXIT_JAVA_1913599/A2_Q2_1913599/src" />
++          <root url="file://D:/bmw/UTSAV_JAVA_1913543/A1_Q1_1913543/src" />
++          <root url="file://D:/bmw/UTSAV_JAVA_1913543/A2_Q2_1913543/src" />
++          <root url="file://D:/bmw/assignment2_sunday/asignmet2_q2_raj_1913591/src" />
++          <root url="file://D:/bmw/assignment2_sunday/assignment2_1913591/src" />
++          <root url="file://D:/bmw/assignment2_sunday/laxit_1913599_a2q2/src" />
++          <root url="file://D:/bmw/assignment2_sunday/laxit_assignment2_Q1/src" />
++          <root url="file://D:/bmw/assignment2_sunday/usav_assignment2/src" />
++          <root url="file://D:/bmw/assignment2_sunday/utsav_a2q2_assignment2/src" />
++          <root url="file://D:/bmw/laxit_1913599_a2q2/src" />
++        </SOURCES>
++        <jarDirectory url="file://D:/bmw" recursive="false" />
++        <jarDirectory url="file://D:/bmw" recursive="false" type="SOURCES" />
++      </library>
++    </orderEntry>
++    <orderEntry type="module-library">
++      <library>
++        <CLASSES>
++          <root url="file://D:/bmw" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES>
++          <root url="file://D:/bmw" />
++        </SOURCES>
++        <jarDirectory url="file://D:/bmw" recursive="false" />
++        <jarDirectory url="file://D:/bmw" recursive="false" type="SOURCES" />
++      </library>
++    </orderEntry>
++  </component>
++</module>
+\ No newline at end of file
+Index: src/Imagebtn.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Imagebtn.java	(date 1604274780333)
++++ src/Imagebtn.java	(date 1604274780333)
+@@ -0,0 +1,46 @@
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.chrome.ChromeDriver;
++import org.testng.annotations.Test;
++
++
++import java.io.File;
++import java.net.URL;
++import java.util.concurrent.TimeUnit;
++import java.util.List;
++public class Imagebtn {
++    @Test
++    public void testNGStart() throws Exception {
++        System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++        ChromeDriver driver = new ChromeDriver();
++        driver.get("http://automationpractice.com/index.php");
++    }
++
++    @Test
++    public void testNGcount() throws Exception {
++        System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++        ChromeDriver driver = new ChromeDriver();
++        driver.get("http://automationpractice.com/index.php");
++
++        Integer counter=0;
++
++        List<WebElement> listImages=driver.findElements(By.tagName("img"));
++        System.out.println("Count for images in website: "+listImages.size());
++
++    }
++
++    @Test
++    public void testNGcnt() throws Exception {
++            System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++            ChromeDriver driver = new ChromeDriver();
++            driver.get("http://automationpractice.com/index.php");
++            String mytestingweb = "http://automationpractice.com/index.php";
++            driver.get(mytestingweb);
++            driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
++            //taking all buttons and displaying total number of button
++            List<WebElement> links = driver.findElements(By.tagName("a"));
++            System.out.println("total buttons in the following websites are:" + links.size());
++            driver.close();
++        }
++
++}
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1604017412714)
++++ .idea/modules.xml	(date 1604017412714)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Raj.iml" filepath="$PROJECT_DIR$/Raj.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1604017417388)
++++ .idea/.gitignore	(date 1604017417388)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: src/AssertClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/AssertClass.java	(date 1604265387527)
++++ src/AssertClass.java	(date 1604265387527)
+@@ -0,0 +1,28 @@
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.chrome.ChromeDriver;
++import org.openqa.selenium.firefox.FirefoxDriver;
++import org.testng.Assert;
++import org.testng.annotations.Test;
++
++public class AssertClass {
++    @Test
++    public void testNGAsserts() throws Exception{
++        System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++        ChromeDriver driver = new ChromeDriver();
++
++        //Test Condition 1: If Page title matches with actualTitle then it finds email title and enters the value which we pass
++        driver.get("https://www.gmail.com");
++        String actualTitle = "Gmail";
++        Assert.assertEquals(driver.getTitle(), actualTitle);
++        Thread.sleep(2000);
++        driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("SoftwareTestingMaterial.com");
++        //Test Condition 2: If page title didnt match with actualTitle then script throws an exception
++        Thread.sleep(2000);
++        driver.get("https://www.gmail.com");
++        actualTitle = "GoogleMail";
++        Thread.sleep(2000);
++        //Assert.assertEquals(driver.getTitle(), actualTitle, "Title not matched");
++        org.testng.Assert.assertEquals(driver.getTitle(), actualTitle);
++    }
++}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1604280437787)
++++ .idea/vcs.xml	(date 1604280437787)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/FirstTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/FirstTest.java	(date 1604018046054)
++++ src/FirstTest.java	(date 1604018046054)
+@@ -0,0 +1,20 @@
++import org.testng.annotations.Test;
++public class FirstTest {
++    @Test
++    void setup()
++    {
++        System.out.println("Operating Browser");
++    }
++
++    @Test
++    void login()
++    {
++        System.out.println("This is login test");
++    }
++
++    @Test
++    void teardown()
++    {
++        System.out.println("Closing the browser");
++    }
++}
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1604279121727)
++++ .gitignore	(date 1604279121727)
+@@ -0,0 +1,2 @@
++# Project exclude paths
++/out/
+\ No newline at end of file
+Index: src/groupclass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/groupclass.java	(date 1604104530703)
++++ src/groupclass.java	(date 1604104530703)
+@@ -0,0 +1,20 @@
++import org.testng.annotations.Test;
++
++public class groupclass {
++@Test(groups = {"Unit"})
++void printIntro(){
++    System.out.println("this is a matrix colege test ng project.we run ");
++}
++@Test(groups ={"sanity","regrassion"})
++void setup() {System.out.println("i am setting up some config");}
++@Test(groups={"regrassion"})
++void done() {System.out.println("the test completed");}
++@Test(groups={"sanity"})
++void login() {System.out.println("the test is login");}
++    @Test(groups={"regrassion"})
++    void openmio() {System.out.println("the test is to open mio"); }
++    @Test(groups={"regrassion"})
++    void openlea() {System.out.println("the test is to open lea");}
++    @Test(groups={"integration"})
++    void teardown() {System.out.println("close the browser");}
++}
+Index: src/DependencyExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/DependencyExample.java	(date 1604097429665)
++++ src/DependencyExample.java	(date 1604097429665)
+@@ -0,0 +1,25 @@
++import org.testng.Assert;
++import org.testng.annotations.Test;
++public class DependencyExample {
++@Test
++    void startcar()
++{
++    System.out.println("this method will start the car");
++   // Assert.fail();
++}
++@Test(dependsOnMethods = {"startcar"})
++ void drivecar()
++ {
++     System.out.println("this method wil put the car in driving mode");
++ }
++@Test(dependsOnMethods = {"drivecar"})
++ void stopcar()
++{
++    System.out.println("this method will stop the car");
++}
++@Test(dependsOnMethods = {"drivecar","stopcar"})
++void parkcar(){
++    System.out.println("this method parks a car");
++     }
++}
++
+Index: debug.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- debug.log	(date 1604273523068)
++++ debug.log	(date 1604273523068)
+@@ -0,0 +1,2 @@
++[1030/212908.320:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
++[1101/183203.067:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Index: src/demo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/demo.java	(date 1604268737022)
++++ src/demo.java	(date 1604268737022)
+@@ -0,0 +1,49 @@
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.chrome.ChromeDriver;
++import org.testng.Assert;
++import org.testng.annotations.Test;
++
++public class demo {
++    @Test
++    public void testNGStart() throws Exception  {
++     System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++       ChromeDriver driver = new ChromeDriver();
++
++        //Test Condition 1: If Page title matches with actualTitle then it finds email title and enters the value which we pass
++    driver.get("http://automationpractice.com/index.php");
++    }
++    @Test
++        public void testNGAsserts() throws Exception{
++        System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++        ChromeDriver driver = new ChromeDriver();
++        driver.get("http://automationpractice.com/index.php");
++        String actualTitle = "My Store";
++
++        Assert.assertEquals(driver.getTitle(), actualTitle);
++        Thread.sleep(2000);
++       // driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("SoftwareTestingMaterial.com");
++        //Test Condition 2: If page title didnt match with actualTitle then script throws an exception
++        Thread.sleep(2000);
++        driver.get("http://automationpractice.com/index.php");
++        actualTitle = "My Store";
++        Thread.sleep(2000);
++        //Assert.assertEquals(driver.getTitle(), actualTitle, "Title not matched");
++        org.testng.Assert.assertEquals(driver.getTitle(), actualTitle);
++    }
++    @Test
++    public void verifyLogo()
++    {
++        System.setProperty("webdriver.chrome.driver", "D:\\MATRIX\\chromedriver_win32\\chromedriver.exe");
++        ChromeDriver driver = new ChromeDriver();
++        driver.get("http://automationpractice.com/index.php");
++        WebElement Yourlogo =  driver.findElement(By.xpath("//*[@id=\"header_logo\"]/a/img"));
++        org.testng.Assert.assertTrue(Yourlogo.isDisplayed());
++
++        System.out.println("logo is displayed : passed ");
++    }
++
++}
++
++
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1604278359805)
++++ README.md	(date 1604278359805)
+@@ -0,0 +1,1 @@
++"# myproject" 
+Index: src/prioritytest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/prioritytest.java	(date 1604094741466)
++++ src/prioritytest.java	(date 1604094741466)
+@@ -0,0 +1,23 @@
++import org.testng.annotations.Test;
++public class prioritytest {
++    @Test(priority = 2)
++    void setup()
++    {
++        System.out.println("Operating Browser");
++    }
++
++    @Test(priority =  1)
++    void login()
++    {
++        System.out.println("This is login test");
++    }
++
++    @Test(priority = 3,enabled = false)
++    void teardown()
++    {
++        System.out.println("Closing the browser");
++    }
++
++
++
++}
+diff --git src/1testng.xml src/1testng.xml
+new file mode 100644
